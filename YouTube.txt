@@ -1,3 +1,12 @@
+! Title: Web Declutter - YouTube
+! Last modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/thealex-br/web-declutter/blob/main/LICENSE
+! Homepage: https://github.com/thealex-br/web-declutter
+!
+! GitHub issues: https://github.com/thealex-br/web-declutter/issues
+! GitHub pull requests: https://github.com/thealex-br/web-declutter/pulls
+
 ! login btn, left container
 youtube.com##ytd-guide-signin-promo-renderer:has(#sign-in-button)
 
