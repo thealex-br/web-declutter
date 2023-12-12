@@ -1,0 +1,96 @@
+! login btn, left container
+youtube.com##ytd-guide-signin-promo-renderer:has(#sign-in-button)
+
+! 'Explore' section, left container
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+
+!'More from YouTube', left container
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text(YouTube)
+
+! 'Find more videos', left container
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+
+! giant horizontal bar below 'Search', homepage
+youtube.com###header > .ytd-rich-grid-renderer.style-scope
+
+! first horizontal bar on search results
+youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+
+! videos with card "SHORTS"
+youtube.com##ytd-video-renderer.ytd-item-section-renderer:has(.ytd-thumbnail-overlay-time-status-renderer:has-text(SHORTS))
+
+! 'Send feedback' btn
+youtube.com###endpoint:has-text(/feedback/i)
+
+! 'Shorts' btn
+youtube.com###endpoint:has-text(Shorts)
+
+! 'include results for: somethung' on search results
+youtube.com##yt-including-results-for-renderer
+
+! unrelated shorts when scrolling down on homepage
+youtube.com##ytd-rich-section-renderer
+
+! unrelated shorts when scrolling down on search results
+youtube.com##ytd-reel-shelf-renderer
+
+! 'Other people also watch'/'For you', search results
+youtube.com##ytd-shelf-renderer
+
+! giant information about some game on left side of search results
+youtube.com##ytd-secondary-search-container-renderer.style-scope
+
+! 'moments/captions' below description on search results
+youtube.com###expandable-metadata
+
+! 'important moments' on video description
+youtube.com##ytd-horizontal-card-list-renderer
+
+! 'moments/captions/cards' on video description
+youtube.com###infocards-section
+
+! transcriptions on video description
+youtube.com##ytd-video-description-transcript-section-renderer
+
+! description info that show the icon and name of the channel, useless and very cluttered
+youtube.com##ytd-video-description-infocards-section-renderer
+
+! 'share' on description, useless
+youtube.com##ytd-button-renderer.ytd-menu-renderer
+
+! 'more about this game' on video description
+youtube.com###always-shown
+
+! 'Save' on description
+youtube.com##yt-button-view-model.ytd-menu-renderer
+
+! share button on video player
+youtube.com##.ytp-share-button
+
+! watch later button on video player
+youtube.com##.ytp-watch-later-icon
+
+! channel icon on video player
+youtube.com##.iv-branding
+
+! ambient light
+youtube.com###cinematics
+
+! sponsor btn
+youtube.com###sponsor-button
+
+! scroll for more information, on video player
+youtube.com##.ytp-button.ytp-fullerscreen-edu-button
+
+! "context"
+youtube.com##ytd-info-panel-container-renderer
+
+! footer
+youtube.com###guide-links-primary
+youtube.com###guide-links-secondary
+youtube.com###copyright
+youtube.com###voice-search-button
+youtube.com###country-code
+
+! disable video preview
+youtube.com##ytd-thumbnail > a#thumbnail > div#mouseover-overlay
