@@ -34,6 +34,9 @@ youtube.com###endpoint:has-text(/feedback/i)
 ! 'Shorts' btn
 youtube.com###endpoint:has-text(Shorts)
 
+! 'Shorts' btn on shorts on user pages
+youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has(#title:has-text(Shorts))
+
 ! 'Shorts' btn on navigation bar
 youtube.com##yt-tab-shape.yt-tab-shape-wiz:has-text(Shorts)
 
