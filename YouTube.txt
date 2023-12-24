@@ -34,6 +34,9 @@ youtube.com###endpoint:has-text(/feedback/i)
 ! 'Shorts' btn
 youtube.com###endpoint:has-text(Shorts)
 
+! 'Shorts' btn on navigation bar
+youtube.com##yt-tab-shape.yt-tab-shape-wiz:has-text(Shorts)
+
 ! 'include results for: somethung' on search results
 youtube.com##yt-including-results-for-renderer
 
@@ -44,7 +47,7 @@ youtube.com##ytd-rich-section-renderer
 youtube.com##ytd-reel-shelf-renderer
 
 ! 'Other people also watch'/'For you', search results
-youtube.com##ytd-shelf-renderer
+youtube.com##ytd-shelf-renderer:has(#more)
 
 ! giant information about some game on left side of search results
 youtube.com##ytd-secondary-search-container-renderer.style-scope
