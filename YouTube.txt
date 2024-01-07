@@ -99,6 +99,7 @@ youtube.com##.ytp-button.ytp-fullerscreen-edu-button
 
 ! "context"
 youtube.com##ytd-info-panel-container-renderer
+youtube.com###clarify-box
 
 ! footer
 youtube.com###guide-links-primary
