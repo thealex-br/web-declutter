@@ -1,0 +1,50 @@
+! Title: Web Declutter - Spotify
+! Last modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/thealex-br/web-declutter/blob/main/LICENSE
+! Homepage: https://github.com/thealex-br/web-declutter
+!
+! GitHub issues: https://github.com/thealex-br/web-declutter/issues
+! GitHub pull requests: https://github.com/thealex-br/web-declutter/pulls
+
+! Tips
+open.spotify.com##.tippy-box
+open.spotify.com##.Popover__StyledPopover-sc-1iog353-0
+
+! 'Explore Premium' btn
+open.spotify.com##.jgTSDy
+! 'Upgrade to Premium' btn on account
+open.spotify.com##li.DuEPSADpSwCcO880xjUG:nth-of-type(3)
+
+! Footer on playlist end
+open.spotify.com##.main-view-container__mh-footer-container
+! Footer on left, only for unlogged users
+open.spotify.com##.i4nABk12gLqZuh9Jbdw1
+
+! 'Now Playing' related
+! Right Screen
+open.spotify.com##.OTfMDdomT5S7B5dbYTT8
+! 'Now Playing' btn
+open.spotify.com##.L5PLOiBhdFNjs4FEu8ln
+open.spotify.com##.mwpJrmCgLlVkJVtWjlI1 > button:nth-of-type(1)
+! 'Expand' btn on music icon
+open.spotify.com##.qWcH8e2laY9sYOuCsOAx
+
+! 'Miniplayer' btn
+open.spotify.com##button.KAZD28usA1vPz5GVpm63:nth-of-type(3)
+
+! in 'Search', make only 'Made For You' appear
+open.spotify.com##a.jXeqeqkxEBVeFjA2YydA, .bQthUEx0_U98DJkT1saO:not(:has-text("Made For You"))
+
+! in 'Home', remove all unrelated playlists
+! Charts
+open.spotify.com##section:nth-of-type(20)
+! Probably another unrelated or sponsored playlist
+open.spotify.com##section:nth-of-type(8)
+! 'Episodes for you'
+open.spotify.com##section:nth-of-type(5)
+! 'Popular radio'
+open.spotify.com##section:nth-of-type(7)
+
+! bottom card 'Preview of Spotify' for unlogged users
+open.spotify.com##.dz_h98rH9nZCwfPdnKgr
