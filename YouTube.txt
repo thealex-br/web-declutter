@@ -19,6 +19,17 @@ youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text(
 ! 'Find more videos', left container
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 
+! '4K', 'Live', 'New', 'CC', etc
+youtube.com##.ytd-compact-video-renderer.style-scope.badges
+youtube.com##.ytd-rich-grid-media.style-scope.video-badge
+youtube.com###badges
+
+! 'Download' btn
+youtube.com##ytd-download-button-renderer
+
+! 'More from channel-name' btn
+youtube.com##.ytp-chrome-top-buttons
+
 ! giant horizontal bar below 'Search', homepage
 youtube.com###header > .ytd-rich-grid-renderer.style-scope
 
