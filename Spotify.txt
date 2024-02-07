@@ -15,6 +15,8 @@ open.spotify.com##.Popover__StyledPopover-sc-1iog353-0
 open.spotify.com##.jgTSDy
 ! 'Upgrade to Premium' btn on account
 open.spotify.com##li.DuEPSADpSwCcO880xjUG:nth-of-type(3)
+! 'Install App' btn
+open.spotify.com##.kzxKsG.Button-sc-qlcn5g-0
 
 ! Footer on playlist end
 open.spotify.com##.main-view-container__mh-footer-container
