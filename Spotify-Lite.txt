@@ -1,0 +1,17 @@
+! Title: Web Declutter - Spotify (LITE)
+! Last modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/thealex-br/web-declutter/blob/main/LICENSE
+! Homepage: https://github.com/thealex-br/web-declutter
+!
+! GitHub issues: https://github.com/thealex-br/web-declutter/issues
+! GitHub pull requests: https://github.com/thealex-br/web-declutter/pulls
+
+open.spotify.com##.tippy-box
+open.spotify.com##.encore-announcement-set
+open.spotify.com###Desktop_PanelContainer_Id
+open.spotify.com##.KAZD28usA1vPz5GVpm63
+open.spotify.com##.ButtonInner-sc-14ud5tc-0.jSvPxO
+open.spotify.com##.NbcaczStd8vD2rHWwaKv > li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
+open.spotify.com##.main-view-container__mh-footer-container
+open.spotify.com##.qWcH8e2laY9sYOuCsOAx
