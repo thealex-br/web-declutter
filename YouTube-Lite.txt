@@ -46,3 +46,12 @@ www.youtube.com##.badge.badge-style-type-live-now-alternate
 www.youtube.com##ytd-search ytd-shelf-renderer
 
 www.youtube.com##ytd-search ytd-horizontal-card-list-renderer
+
+www.youtube.com##ytd-guide-signin-promo-renderer.style-scope.ytd-guide-renderer
+www.youtube.com###top-level-buttons-computed > yt-button-view-model
+www.youtube.com###flexible-item-buttons
+
+www.youtube.com###cinematics.ytd-watch-flexy
+www.youtube.com##.ytp-panel > .ytp-panel-menu > div.ytp-menuitem:nth-of-type(1)
+
+www.youtube.com###foreground-content
