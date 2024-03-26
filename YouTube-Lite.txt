@@ -39,6 +39,8 @@ www.youtube.com###country-code
 
 www.youtube.com##ytd-watch-metadata #contents
 
+www.youtube.com###structured-description
+
 www.youtube.com###sponsor-button
 
 www.youtube.com##.badge.badge-style-type-live-now-alternate
