@@ -7,11 +7,24 @@
 ! GitHub issues: https://github.com/thealex-br/web-declutter/issues
 ! GitHub pull requests: https://github.com/thealex-br/web-declutter/pulls
 
-open.spotify.com##.tippy-box
-open.spotify.com##.encore-announcement-set
-open.spotify.com###Desktop_PanelContainer_Id
-open.spotify.com##.KAZD28usA1vPz5GVpm63
-open.spotify.com##.ButtonInner-sc-14ud5tc-0.jSvPxO
-open.spotify.com##.NbcaczStd8vD2rHWwaKv > li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
+! Footer
 open.spotify.com##.main-view-container__mh-footer-container
-open.spotify.com##.qWcH8e2laY9sYOuCsOAx
+open.spotify.com##.i4nABk12gLqZuh9Jbdw1
+
+! Premium ads (unlogged)
+open.spotify.com##.dz_h98rH9nZCwfPdnKgr
+
+! 'See Premium', 'Download Spotify'
+open.spotify.com##.Button-sc-qlcn5g-0.gdNlmm
+open.spotify.com##.ButtonInner-sc-14ud5tc-0.kVKSMm
+
+! Tips
+open.spotify.com##.encore-announcement-set
+open.spotify.com##.tippy-content
+
+! Left container, used by 'Playing Now'
+open.spotify.com###Desktop_PanelContainer_Id
+
+! Things that uses the Left container
+open.spotify.com##button.KAZD28usA1vPz5GVpm63:nth-of-type(1)
+open.spotify.com##.L5PLOiBhdFNjs4FEu8ln
