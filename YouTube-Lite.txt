@@ -7,52 +7,79 @@
 ! GitHub issues: https://github.com/thealex-br/web-declutter/issues
 ! GitHub pull requests: https://github.com/thealex-br/web-declutter/pulls
 
-www.youtube.com###chips
-
-www.youtube.com##ytd-rich-section-renderer
-
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
-
-www.youtube.com##ytd-expandable-metadata-renderer
-www.youtube.com##ytd-secondary-search-container-renderer
-
-www.youtube.com###guide-links-primary, #guide-links-secondary, #copyright
-
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(3)
-
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(4)
-
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5)
-
-www.youtube.com##ytd-video-description-infocards-section-renderer.style-scope.ytd-structured-description-content-renderer
-www.youtube.com##ytd-video-description-transcript-section-renderer.style-scope.ytd-structured-description-content-renderer
+! 'Chapters', video description
 www.youtube.com##ytd-horizontal-card-list-renderer.style-scope.ytd-structured-description-content-renderer
 
-www.youtube.com###clarify-box
-www.youtube.com##ytd-item-section-renderer ytd-info-panel-container-renderer
+! 'Transcripts', video description
+www.youtube.com##ytd-video-description-transcript-section-renderer.style-scope.ytd-structured-description-content-renderer
 
-www.youtube.com##.ytp-share-icon, .ytp-watch-later-icon
+! 'Infocards', video description
+www.youtube.com##ytd-video-description-infocards-section-renderer.style-scope.ytd-structured-description-content-renderer
 
-www.youtube.com##.badge.badge-style-type-simple
+! Scroll containers
+www.youtube.com###chips
 
-www.youtube.com###country-code
-
-www.youtube.com##ytd-watch-metadata #contents
-
-www.youtube.com###structured-description
-
-www.youtube.com###sponsor-button
-
-www.youtube.com##.badge.badge-style-type-live-now-alternate
-
-www.youtube.com##ytd-search ytd-shelf-renderer
-
-www.youtube.com##ytd-search ytd-horizontal-card-list-renderer
-
-www.youtube.com##ytd-guide-signin-promo-renderer.style-scope.ytd-guide-renderer
-www.youtube.com###top-level-buttons-computed > yt-button-view-model
+! 'Download', 'Thanks', and 'Clip' buttons
 www.youtube.com###flexible-item-buttons
 
-www.youtube.com###cinematics.ytd-watch-flexy
+www.youtube.com##.ytp-watch-later-icon
+www.youtube.com##.ytp-share-icon
+www.youtube.com###footer > .ytd-guide-renderer.style-scope
+www.youtube.com###country-code
 
-www.youtube.com###foreground-content
+! Scroll for Details
+www.youtube.com##.ytp-fullerscreen-edu-button.ytp-button
+
+! 'Sign in to like videos, comment, and subscribe.'
+www.youtube.com##ytd-guide-signin-promo-renderer.style-scope.ytd-guide-renderer
+
+! 'Explore'
+www.youtube.com##ytd-guide-section-renderer:nth-of-type(3)
+
+! 'More from YouTube'
+www.youtube.com##ytd-guide-section-renderer:nth-of-type(4)
+
+! 'Settings', 'Report History', 'Help' and 'Send Feedback' buttons
+www.youtube.com##ytd-guide-section-renderer:nth-of-type(5)
+
+www.youtube.com##ytd-clarification-renderer
+www.youtube.com###clarify-box
+www.youtube.com##ytd-info-panel-container-renderer.ytd-item-section-renderer
+! same as above, but experimental and potentially unsafe
+www.youtube.com###middle-row
+www.youtube.com###sponsor-button
+
+! Clutter below description like 'YouTube Kids'
+www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+
+! 'Trending'
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+
+! Voice button
+www.youtube.com###voice-search-button
+
+! 'People also watched'
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer
+
+! Auto-generated suggestions
+www.youtube.com##.ytd-rich-section-renderer
+www.youtube.com##ytd-search ytd-shelf-renderer
+
+! Left column on search results
+www.youtube.com###secondary.ytd-two-column-search-results-renderer
+
+! Ambient Light
+www.youtube.com###cinematics
+
+! Keyboard icon on search bar
+www.youtube.com##.sbib_c
+
+! Shorts
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
+
+! '5 moments', '7 chapters'
+www.youtube.com##.ytd-video-renderer.style-scope > .ytd-expandable-metadata-renderer
+studio.youtube.com##.ytp-large-play-button.ytp-button
+
+! 'Play' button for browsers with autoplay disabled
+www.youtube.com##.ytp-large-play-button.ytp-button
