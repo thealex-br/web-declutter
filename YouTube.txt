@@ -64,6 +64,7 @@ www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer
 ! Auto-generated suggestions
 www.youtube.com##.ytd-rich-section-renderer
 www.youtube.com##ytd-search ytd-shelf-renderer
+www.youtube.com###contents > ytd-reel-shelf-renderer.ytd-item-section-renderer
 
 ! Left column on search results
 www.youtube.com###secondary.ytd-two-column-search-results-renderer
@@ -80,3 +81,6 @@ studio.youtube.com##.ytp-large-play-button.ytp-button
 
 ! 'Play' button for browsers with autoplay disabled
 www.youtube.com##.ytp-large-play-button.ytp-button
+
+! YouTube Shorts
+www.youtube.com###dismissible:has([href^="/shorts/"])
