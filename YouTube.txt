@@ -84,3 +84,29 @@ www.youtube.com##.ytp-large-play-button.ytp-button
 
 ! YouTube Shorts
 www.youtube.com###dismissible:has([href^="/shorts/"])
+
+! Recommendations on video description
+www.youtube.com###structured-description
+
+! Live chat on video description
+www.youtube.com###teaser-carousel
+
+! AI generated video summary
+www.youtube.com###expandable-metadata > .ytd-watch-flexy
+
+! Useless eye catching badges
+www.youtube.com##.ytd-rich-grid-media.video-badge
+www.youtube.com##.ytd-compact-video-renderer.badges
+www.youtube.com###badges
+
+! X button to clear searchbox
+www.youtube.com##.ytSearchboxComponentClearButtonWrapper
+
+! Channel branding on video player
+www.youtube.com##.iv-click-target.branding-img
+
+! Views and Time Since Upload 
+www.youtube.com###metadata-line
+
+! 'Share' button
+www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
