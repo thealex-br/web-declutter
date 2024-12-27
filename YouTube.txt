@@ -105,8 +105,5 @@ www.youtube.com##.ytSearchboxComponentClearButtonWrapper
 ! Channel branding on video player
 www.youtube.com##.iv-click-target.branding-img
 
-! Views and Time Since Upload 
-www.youtube.com###metadata-line
-
 ! 'Share' button
 www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
