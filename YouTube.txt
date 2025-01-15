@@ -48,6 +48,7 @@ www.youtube.com##ytd-info-panel-container-renderer.ytd-item-section-renderer
 ! same as above, but experimental and potentially unsafe
 www.youtube.com###middle-row
 www.youtube.com###sponsor-button
+www.youtube.com###donation-shelf
 
 ! Clutter below description like 'YouTube Kids'
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
