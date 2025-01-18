@@ -84,7 +84,7 @@ studio.youtube.com##.ytp-large-play-button.ytp-button
 www.youtube.com##.ytp-large-play-button.ytp-button
 
 ! YouTube Shorts
-www.youtube.com###dismissible:has([href^="/shorts/"])
+www.youtube.com###dismissible:has([href^="/shorts/"]):remove()
 
 ! Recommendations on video description
 www.youtube.com###structured-description
