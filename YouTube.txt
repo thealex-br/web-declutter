@@ -86,6 +86,9 @@ www.youtube.com##.ytp-large-play-button.ytp-button
 ! YouTube Shorts
 www.youtube.com##ytd-video-renderer.ytd-item-section-renderer:has([href^="/shorts/"]):remove()
 
+! Empty Spaces
+www.youtube.com###spinner-container:remove()
+
 ! Recommendations on video description
 www.youtube.com###structured-description
 
