@@ -70,9 +70,6 @@ www.youtube.com###contents > ytd-reel-shelf-renderer.ytd-item-section-renderer
 ! Left column on search results
 www.youtube.com###secondary.ytd-two-column-search-results-renderer
 
-! Ambient Light
-www.youtube.com###cinematics
-
 ! Keyboard icon on search bar
 www.youtube.com##.sbib_c
 
