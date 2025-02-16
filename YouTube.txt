@@ -45,10 +45,10 @@ www.youtube.com##ytd-guide-section-renderer:nth-of-type(5)
 www.youtube.com##ytd-clarification-renderer
 www.youtube.com###clarify-box
 www.youtube.com##ytd-info-panel-container-renderer.ytd-item-section-renderer
-! same as above, but experimental and potentially unsafe
-www.youtube.com###middle-row
 www.youtube.com###sponsor-button
 www.youtube.com###donation-shelf
+! same as above, but experimental and potentially unsafe
+www.youtube.com###middle-row
 
 ! Clutter below description like 'YouTube Kids'
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
@@ -69,6 +69,9 @@ www.youtube.com###contents > ytd-reel-shelf-renderer.ytd-item-section-renderer
 
 ! Left column on search results
 www.youtube.com###secondary.ytd-two-column-search-results-renderer
+
+! Big Card on search results
+www.youtube.com##.ytOfficialCardViewModelHost
 
 ! Keyboard icon on search bar
 www.youtube.com##.ytdTextInputAssistantButton
