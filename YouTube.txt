@@ -42,6 +42,9 @@ www.youtube.com##ytd-guide-section-renderer:nth-of-type(4)
 ! 'Settings', 'Report History', 'Help' and 'Send Feedback' buttons
 www.youtube.com##ytd-guide-section-renderer:nth-of-type(5)
 
+! Channel Card on Right Results
+www.youtube.com###related #content-section
+
 www.youtube.com##ytd-clarification-renderer
 www.youtube.com###clarify-box
 www.youtube.com##ytd-info-panel-container-renderer.ytd-item-section-renderer
