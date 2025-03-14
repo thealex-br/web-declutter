@@ -87,7 +87,7 @@ studio.youtube.com##.ytp-large-play-button.ytp-button
 www.youtube.com##.ytp-large-play-button.ytp-button
 
 ! Empty Spaces
-www.youtube.com###spinner-container
+www.youtube.com###spinner-container:remove()
 
 ! Recommendations on video description
 www.youtube.com###structured-description
