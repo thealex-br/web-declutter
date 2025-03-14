@@ -8,13 +8,13 @@
 ! GitHub pull requests: https://github.com/thealex-br/web-declutter/pulls
 
 ! 'Chapters', video description
-www.youtube.com##ytd-horizontal-card-list-renderer.style-scope.ytd-structured-description-content-renderer
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer
 
 ! 'Transcripts', video description
-www.youtube.com##ytd-video-description-transcript-section-renderer.style-scope.ytd-structured-description-content-renderer
+www.youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer
 
 ! 'Infocards', video description
-www.youtube.com##ytd-video-description-infocards-section-renderer.style-scope.ytd-structured-description-content-renderer
+www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer
 
 ! Scroll containers
 www.youtube.com###chips
@@ -24,14 +24,14 @@ www.youtube.com###flexible-item-buttons
 
 www.youtube.com##.ytp-watch-later-icon
 www.youtube.com##.ytp-share-icon
-www.youtube.com###footer > .ytd-guide-renderer.style-scope
+www.youtube.com###footer > .ytd-guide-renderer
 www.youtube.com###country-code
 
 ! Scroll for Details
 www.youtube.com##.ytp-fullerscreen-edu-button.ytp-button
 
 ! 'Sign in to like videos, comment, and subscribe.'
-www.youtube.com##ytd-guide-signin-promo-renderer.style-scope.ytd-guide-renderer
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer
 
 ! 'Explore'
 www.youtube.com##ytd-guide-section-renderer:nth-of-type(3)
@@ -54,10 +54,10 @@ www.youtube.com###donation-shelf
 www.youtube.com###middle-row
 
 ! Clutter below description like 'YouTube Kids'
-www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+www.youtube.com##.ytd-metadata-row-container-renderer > .ytd-rich-metadata-row-renderer
 
 ! 'Trending'
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+www.youtube.com##.ytd-rich-section-renderer > .ytd-rich-shelf-renderer
 
 ! Voice button
 www.youtube.com###voice-search-button
@@ -80,7 +80,7 @@ www.youtube.com##.ytOfficialCardViewModelHost
 www.youtube.com##.ytdTextInputAssistantButton
 
 ! '5 moments', '7 chapters'
-www.youtube.com##.ytd-video-renderer.style-scope > .ytd-expandable-metadata-renderer
+www.youtube.com##.ytd-video-renderer > .ytd-expandable-metadata-renderer
 studio.youtube.com##.ytp-large-play-button.ytp-button
 
 ! 'Play' button for browsers with autoplay disabled
