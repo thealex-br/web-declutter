@@ -62,6 +62,9 @@ www.youtube.com##.ytd-rich-section-renderer > .ytd-rich-shelf-renderer
 ! Voice button
 www.youtube.com###voice-search-button
 
+! Ticket
+www.youtube.com###ticket-shelf
+
 ! 'People also watched'
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer
 
