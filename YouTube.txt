@@ -1,5 +1,4 @@
 ! Title: Declutter - YouTube
-! Last modified: %timestamp%
 ! Expires: 7 days
 ! License: https://github.com/thealex-br/web-declutter/blob/main/LICENSE
 ! Homepage: https://github.com/thealex-br/web-declutter
