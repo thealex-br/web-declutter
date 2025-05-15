@@ -36,10 +36,10 @@ www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer
 www.youtube.com##ytd-guide-section-renderer:nth-of-type(2)
 
 ! 'More from YouTube'
-www.youtube.com##ytd-guide-section-renderer:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer:nth-of-type(3)
 
 ! 'Settings', 'Report History', 'Help' and 'Send Feedback' buttons
-www.youtube.com##ytd-guide-section-renderer:nth-of-type(5)
+www.youtube.com##ytd-guide-section-renderer:nth-of-type(4)
 
 ! Channel Card on video recommendations
 www.youtube.com###related #content-section
