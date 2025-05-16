@@ -11,8 +11,8 @@ www.youtube.com###secondary
 
 ! Centralizing some elements after hiding ###secondary
 www.youtube.com###primary:style(margin: 0 auto !important;)
-! also centralizing page skeleton when loading the page
 www.youtube.com###info-container:style(margin: 0 auto !important;)
+www.youtube.com###player-wrap:style(margin: 0 auto !important;)
 
 ! Elements on the player that sometimes hides the video content
 www.youtube.com##.ytp-ce-element.ytp-ce-element-show
