@@ -33,13 +33,13 @@ www.youtube.com##.ytp-fullerscreen-edu-button.ytp-button
 www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer
 
 ! 'Explore'
-www.youtube.com##ytd-guide-section-renderer:nth-of-type(2)
-
-! 'More from YouTube'
 www.youtube.com##ytd-guide-section-renderer:nth-of-type(3)
 
-! 'Settings', 'Report History', 'Help' and 'Send Feedback' buttons
+! 'More From Youtube'
 www.youtube.com##ytd-guide-section-renderer:nth-of-type(4)
+
+! 'Settings', 'Report History', 'Help' and 'Send Feedback' buttons
+www.youtube.com##ytd-guide-section-renderer:nth-of-type(5)
 
 ! Channel Card on video recommendations
 www.youtube.com###related #content-section
