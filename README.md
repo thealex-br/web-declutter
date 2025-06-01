@@ -5,7 +5,7 @@
 #### Block video by title
 `youtube.com###video-title:has-text(/keyword1|keyword2/i):upward(#dismissible):remove()`
 #### Block video by description
-`youtube.com###dismissible span.yt-formatted-string:has-text(/keyword1|keyword2/i):upward(#dismissible):remove()`
+`youtube.com##.metadata-snippet-text:has-text(/keyword1|keyword2/i):upward(#dismissible):remove()`
 #### Block video by channel
 `youtube.com##.yt-formatted-string.yt-simple-endpoint[href="/@youtube_channel_url"]:upward(#dismissible):remove()`
 
