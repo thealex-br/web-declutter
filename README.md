@@ -8,6 +8,8 @@
 `youtube.com##.metadata-snippet-text:has-text(/keyword1|keyword2/i):upward(#dismissible):remove()`
 #### Block video by channel
 `youtube.com##.yt-formatted-string.yt-simple-endpoint[href="/@youtube_channel_url"]:upward(#dismissible):remove()`
+#### Block video by title and description
+`youtube.com##:has(#video-title, .metadata-snippet-text):has-text(/keyword1|keyword2/i):upward(#dismissible):remove()`
 
 ## FAQ
 Why `:remove()` instead of just hiding?
